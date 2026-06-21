@@ -16,6 +16,9 @@ export function CheckoutPage() {
     return (
         <>
             <NavBar />
+            <div className="Find">
+                <img src="images/find-hero.svg" alt="" />
+            </div>
             <div>
                 <button className={styles.openBtn} onClick={() => setOpen(true)}>
                     Open Cart
@@ -71,8 +74,8 @@ export function CheckoutPage() {
                             <p>${totalPrice.toFixed(2)}</p>
                         </div>
                         <p className={styles.shippingNote}>Shipping and taxes calculated at checkout.</p>
-                        
-                         <a   href={`https://wa.me/+2349000000000?text=${whatsappMessage}`}
+
+                        <a href={`https://wa.me/+2349000000000?text=${whatsappMessage}`}
                             target="_blank"
                             rel="noreferrer"
                             className={styles.checkoutBtn}
