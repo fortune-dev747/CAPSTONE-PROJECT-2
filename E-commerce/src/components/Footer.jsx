@@ -51,7 +51,7 @@ export function Footer() {
 
             {/* Bottom Bar */}
             <div className={styles.footerBottom}>
-                <p>© 2026 Fortune U. Emmanuel All rights reserved.</p>
+                <p>© 2026 Fortune U. Emmanuel. All rights reserved.</p>
             </div>
         </footer>
     )

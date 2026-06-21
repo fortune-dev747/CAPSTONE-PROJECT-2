@@ -17,7 +17,7 @@
 
 .hello {
     background-color: white;
-    width: 100px;
+    width: 250px;
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
@@ -27,8 +27,9 @@
     color: white;
 }
 .add-to-cart {
-    margin-left: 10px;
     margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .Nav-container {
