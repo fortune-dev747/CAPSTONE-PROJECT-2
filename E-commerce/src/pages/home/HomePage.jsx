@@ -27,18 +27,25 @@ export function HomePage() {
                     </div>
                 </div>
 
-                <div className="card1">
-                    <img className="iphone-card" src="images/iphone-card.png" alt="iphone" />
-                    <h3 className="card-text">iPhones</h3>
-                </div>
-                <div className="card2">
-                    <img className="headphones-card" src="images/samsungS10.png" alt="samsung" />
-                    <h3 className="card-text2">Samsung</h3>
-                </div>
-                <div className="card3">
-                    <img className="laptop-card" src="images/laptop-card.png" alt="macbook" />
-                    <h3 className="card-text3">MacBook</h3>
-                </div>
+                <NavLink to="products">
+                    <div className="card1">
+                        <img className="iphone-card" src="images/iphone-card.png" alt="iphone" />
+                        <h3 className="card-text">iPhones</h3>
+                    </div>
+                </NavLink>
+
+                <NavLink to="products">
+                    <div className="card2">
+                        <img className="headphones-card" src="images/samsungS10.png" alt="samsung" />
+                        <h3 className="card-text2">Samsung</h3>
+                    </div>
+                </NavLink>
+                <NavLink to="products">
+                    <div className="card3">
+                        <img className="laptop-card" src="images/laptop-card.png" alt="macbook" />
+                        <h3 className="card-text3">MacBook</h3>
+                    </div>
+                </NavLink>
                 <NavLink to="products">
                     <button className="view-products-btn">View Products ↗</button>
                 </NavLink>
