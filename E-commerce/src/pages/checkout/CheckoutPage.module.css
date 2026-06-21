@@ -1,3 +1,17 @@
+.Find {
+    position: absolute;
+    top: 250px;
+    left: 560px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0f172a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .openBtn {
     position: relative;
     top: 500px;
