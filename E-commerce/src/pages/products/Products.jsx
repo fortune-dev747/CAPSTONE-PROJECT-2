@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useCart } from '../checkout/CartContext'
 import { SearchBar } from './SearchBar'
+import { Footer } from '../../components/Footer'
 
 export function Products() {
   const [products, setProducts] = useState([])
@@ -122,6 +123,7 @@ export function Products() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
