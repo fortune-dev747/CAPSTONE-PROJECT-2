@@ -30,7 +30,7 @@ export function Footer() {
                     <h4 className={styles.footerHeading}>Quick Links</h4>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/products">Shop</a></li>
+                        <li><a href="/products">Products</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>

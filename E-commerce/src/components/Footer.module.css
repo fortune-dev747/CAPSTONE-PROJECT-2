@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(to bottom, transparent 0%, #0a0a0a 15%, #0f172a 50%, #0071E3 100%);
+    background: black;
     color: #ffffff;
     padding: 60px 0 0 0;
     margin-top: -2px;
@@ -95,7 +95,7 @@
 }
 
 .footerBottom p {
-    color: #a1a1a6;
+    color: darkviolet;
     font-size: 13px;
     margin: 0;
 }
