@@ -15,22 +15,6 @@
     position: fixed;
 }
 
-.hello {
-    background-color: white;
-    width: 250px;
-    height: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.hello:hover {
-    background-color: #ff8a00;
-    color: white;
-}
-.add-to-cart {
-    margin-top: 5px;
-    text-align: center;
-    font-weight: bold;
-}
 
 .Nav-container {
     display: flex;

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useCart } from '../checkout/CartContext'
 import { SearchBar } from './SearchBar'
 import { Footer } from '../../components/Footer'
+import './Products.css'
 
 export function Products() {
   const [products, setProducts] = useState([])
@@ -113,7 +114,7 @@ export function Products() {
                       <h2 style={{ color: '#4ade80', fontSize: '13px', fontWeight: '500', margin: 0 }}>Added</h2>
                     </div>
 
-                    <div className='hello' onClick={() => handleAddToCart(product)}>
+                    <div className='add-to-cart-btn' onClick={() => handleAddToCart(product)}>
                       <h2 className='add-to-cart'>Add to Cart</h2>
                     </div>
                   </div>
