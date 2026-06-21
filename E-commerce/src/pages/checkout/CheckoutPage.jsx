@@ -85,7 +85,8 @@ export function CheckoutPage() {
                             Order via WhatsApp
                         </a>
                         <NavLink to="/products">
-                            <button className={styles.continueBtn} onClick={() => setOpen(false)}>
+                            <button className={styles.continueBtn} 
+                             onClick={() => setOpen(false)}>
                                 Continue Shopping →
                             </button>
                         </NavLink>
