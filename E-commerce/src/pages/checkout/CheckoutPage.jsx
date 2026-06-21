@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { NavLink } from 'react-router'
 import styles from './CheckoutPage.module.css'
 import { NavBar } from '../../components/NavBar'
 import { useCart } from './CartContext'
@@ -83,9 +84,11 @@ export function CheckoutPage() {
                         >
                             Order via WhatsApp
                         </a>
-                        <button className={styles.continueBtn} onClick={() => setOpen(false)}>
-                            Continue Shopping →
-                        </button>
+                        <NavLink to="/products">
+                            <button className={styles.continueBtn} onClick={() => setOpen(false)}>
+                                Continue Shopping →
+                            </button>
+                        </NavLink>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,11 @@
     font-size: 18px;
 }
 
+.openBtn:hover {
+  background: #F5A623;
+  color: #0a0a0a;
+}
+
 .backdrop {
   position: fixed;
   inset: 0;
@@ -189,7 +194,7 @@
   color: #0071E3;
   cursor: pointer;
   font-weight: 500;
-  text-align: center;
+  margin-left: 120px;
   font-size: 14px;
   transition: color 0.2s;
 }
