@@ -12,6 +12,10 @@ export function CartProvider({ children }) {
     localStorage.setItem('nexus-cart', JSON.stringify(cartItems))
   }, [cartItems])
 
+  const clearCart = () => {
+    setCartItems([])
+  }
+
   const addToCart = (product) => {
     setCartItems(prev => {
       const existing = prev.find(item => item.id === product.id)
@@ -35,7 +39,7 @@ export function CartProvider({ children }) {
   const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
 
   return (
-    <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, totalItems, totalPrice }}>
+    <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, clearCart, totalItems, totalPrice }}>
       {children}
     </CartContext.Provider>
   )

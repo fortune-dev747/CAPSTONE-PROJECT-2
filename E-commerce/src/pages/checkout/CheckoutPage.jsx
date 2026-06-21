@@ -5,7 +5,7 @@ import { useCart } from './CartContext'
 
 export function CheckoutPage() {
     const [open, setOpen] = useState(false)
-    const { cartItems, removeFromCart, totalPrice } = useCart()
+    const { cartItems, removeFromCart, totalPrice, clearCart } = useCart()
 
     const whatsappMessage = encodeURIComponent(
         `Hello! I'd like to order the following:\n` +
@@ -76,6 +76,7 @@ export function CheckoutPage() {
                             target="_blank"
                             rel="noreferrer"
                             className={styles.checkoutBtn}
+                            onClick={clearCart}
                         >
                             Order via WhatsApp
                         </a>
