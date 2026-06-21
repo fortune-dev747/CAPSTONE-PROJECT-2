@@ -1,0 +1,248 @@
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  
+}
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.hero-section {
+  position: absolute;
+  bottom: 450px;
+  left: 370px;
+  color: #A1A1A6;
+  font-size: 64px;
+  font-weight: thick;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.sub-hero-text {
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  font-size: 35px;
+  color: #86868B;
+  animation: fadeInUp 1s ease-out forwards 0.3s;
+  opacity: 0;
+}
+
+.sub-hero-text2 {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  font-size: 35px;
+  color: #86868B;
+  animation: fadeInUp 1s ease-out forwards 0.6s;
+  opacity: 0;
+}
+.hero-section {
+    position: absolute;
+    bottom: 450px;
+    left: 370px;
+    color: #A1A1A6;
+    font-size: 64px;
+    font-weight: thick;
+}
+
+.apple-logo {
+    width: 90px;
+    height: 90px;
+    bottom: 62px;
+    left: 480px;
+    position: absolute;
+}
+
+.link-primary {
+    color: #ff8a00;
+    cursor: pointer;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+
+.hero-svg {
+    position: absolute;
+    top: 180px;
+    left: 1020px;
+    width: 396px;
+    height: 259px;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+
+.card1 {
+  position: absolute;
+  top: 450px;
+  left: 520px;
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #DE9559;
+  animation: float 3s ease-in-out infinite;
+}
+.iphone-card {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.card-text {
+    margin-left: 60px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card2 {
+  position: absolute;
+  top: 560px;
+  left: 300px;
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #1F1B56;
+  animation: float 3s ease-in-out infinite 0.5s;
+}
+.headphones-card {
+    width: 130px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card-text2 {
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card3 {
+  position: absolute;
+  top: 560px;
+  left: 750px;
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #49A077;
+  animation: float 3s ease-in-out infinite 1s;
+}
+.laptop-card {
+   width: 180px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-text3 {
+    margin-left: 55px;
+    margin-top: 2px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+button {
+  position: absolute;
+  top: 670px;
+  left: 525px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #86868B;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.Find {
+    position: absolute;
+    top: 680px;
+    left: 1200px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0f172a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card4 {
+    position: absolute;
+    top: 500px;
+    left: 1020px;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: darkviolet;
+    opacity: 0.8;
+}
+.card-text4 {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: roboto;
+    position: relative;
+}
+
+.card-text5 {
+   color: white;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.review-hero {
+ width: 197px;
+ height: 148px;
+ margin-left: 290px;
+ margin-top: 5px;
+}
+
+.card-text6 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto;
+}
