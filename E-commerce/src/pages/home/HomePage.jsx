@@ -2,7 +2,6 @@ import { NavLink } from "react-router";
 import './HomePage.css'
 import { NavBar } from "../../components/NavBar";
 import { Footer } from "../../components/Footer";
-import { CTA } from "../../components/CTA";
 
 export function HomePage() {
     return (
@@ -61,7 +60,6 @@ export function HomePage() {
                 </div>
             </div>
 
-            <CTA />
             <Footer />
         </>
     )
