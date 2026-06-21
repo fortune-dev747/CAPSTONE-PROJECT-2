@@ -16,7 +16,7 @@ export function NavBar() {
 
                     <div className="Menu">
                         <li className='Menu-list-item-active'><NavLink to="/products">Shop</NavLink></li>
-                        <li className='Menu-list-item'><NavLink to="/about">About</NavLink></li>
+                        <li className='Menu-list-item'><NavLink to="/about">About Us</NavLink></li>
                         <li className='Menu-list-item'><NavLink to="/contact">Contact</NavLink></li>
                     </div>
 
