@@ -21,7 +21,8 @@ export function CheckoutPage() {
                 <img src="images/find-hero.svg" alt="" />
             </div>
             <div>
-                <button className={styles.openBtn} onClick={() => setOpen(true)}>
+                <button className={styles.openBtn} 
+                 onClick={() => setOpen(true)}>
                     Open Cart
                 </button>
 
