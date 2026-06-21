@@ -172,7 +172,7 @@
   100% { transform: scale(1); }
 }
 
-button {
+.view-products-btn {
   position: absolute;
   top: 670px;
   left: 525px;

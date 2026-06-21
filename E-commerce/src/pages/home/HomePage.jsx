@@ -40,7 +40,7 @@ export function HomePage() {
                     <h3 className="card-text3">Laptops</h3>
                 </div>
                 <NavLink to="products">
-                    <button>View Products ↗</button>
+                    <button className="view-products-btn">View Products ↗</button>
                 </NavLink>
 
                 <div className="card4">
