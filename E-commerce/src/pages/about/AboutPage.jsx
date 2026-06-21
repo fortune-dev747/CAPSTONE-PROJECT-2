@@ -5,6 +5,7 @@ import styles from './AboutPage.module.css'
 export function AboutPage() {
     return (
         <>
+            <title>About Us</title>
             <NavBar />
             <div className={styles.aboutWrapper}>
 

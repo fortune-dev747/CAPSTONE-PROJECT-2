@@ -6,6 +6,7 @@ import { Products } from './Products'
 export function ProductsPage() {
     return (
         <>
+            <title>Products</title>
             <NavBar />
             <Products />
         </>

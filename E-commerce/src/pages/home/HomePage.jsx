@@ -6,7 +6,7 @@ import { Footer } from "../../components/Footer";
 export function HomePage() {
     return (
         <>
-            <title>Ecommerce Project</title>
+            <title>Home</title>
             <NavBar />
 
             <div className="page-wrapper">

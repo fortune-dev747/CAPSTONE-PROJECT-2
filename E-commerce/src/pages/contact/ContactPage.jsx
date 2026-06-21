@@ -24,6 +24,7 @@ export function ContactPage() {
 
     return (
         <>
+             <title>Contact</title>
             <NavBar />
             <div className={styles.contactWrapper}>
 
