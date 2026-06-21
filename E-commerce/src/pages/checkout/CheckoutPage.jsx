@@ -74,7 +74,7 @@ export function CheckoutPage() {
                             <p>Subtotal</p>
                             <p>${totalPrice.toFixed(2)}</p>
                         </div>
-                        <p className={styles.shippingNote}>Shipping and taxes calculated at checkout.</p>
+                        {/* <p className={styles.shippingNote}>Negotiation is allowed via dm.</p> */}
 
                         <a href={`https://wa.me/+2349000000000?text=${whatsappMessage}`}
                             target="_blank"

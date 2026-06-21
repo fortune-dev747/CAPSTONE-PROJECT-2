@@ -67,7 +67,7 @@ export function Products() {
               const isAdded = addedIds.includes(product.id)
               return (
                 <div key={product.id} style={{
-                  backgroundColor: '#1a1a1a',
+                  backgroundColor: '#A1A1A6',
                   borderRadius: '12px',
                   overflow: 'hidden',
                   display: 'flex',
@@ -94,7 +94,7 @@ export function Products() {
                     <h3 style={{ fontSize: '14px', color: '#ffffff', fontWeight: '500', margin: 0 }}>
                       {product.title}
                     </h3>
-                    <p style={{ fontSize: '18px', fontWeight: '700', color: '#F5A623', margin: 0 }}>
+                    <p style={{ fontSize: '18px', fontWeight: '700', color: '#000000', margin: 0 }}>
                       ${product.price}
                     </p>
 
