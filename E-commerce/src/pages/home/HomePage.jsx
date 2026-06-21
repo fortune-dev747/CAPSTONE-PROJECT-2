@@ -22,7 +22,7 @@ export function HomePage() {
                         <h1>Product Starts <NavLink to="products"><span className="link-primary">Here</span>.</NavLink></h1>
                     </div>
                     <div className="div">
-                        <h2 className="sub-hero-text">Premium Apple Devices.</h2>
+                        <h2 className="sub-hero-text">Premium Devices.</h2>
                         <div>
                             <h2 className="sub-hero-text2">Unbeatable Prices. Delivered Fast.</h2>
                         </div>
