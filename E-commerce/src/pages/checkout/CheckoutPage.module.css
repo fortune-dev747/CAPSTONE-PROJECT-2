@@ -1,12 +1,15 @@
 .openBtn {
-  padding: 10px 20px;
-  background: #0071E3;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 14px;
+    position: relative;
+    top: 500px;
+    left: 650px;
+    padding: 10px 20px;
+    background: #0071E3;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .backdrop {

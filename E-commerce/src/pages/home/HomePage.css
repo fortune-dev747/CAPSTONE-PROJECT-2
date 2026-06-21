@@ -178,11 +178,13 @@
   left: 525px;
   width: 200px;
   height: 40px;
-  border-radius: 5px;
+   padding: 10px 20px;
   border: none;
-  background-color: #86868B;
-  color: black;
-  font-weight: bold;
+ background: #0071E3;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+   border-radius: 8px;
   cursor: pointer;
   animation: pulse 2s ease-in-out infinite;
 }
