@@ -17,11 +17,17 @@ export function Products() {
     product.title.toLowerCase().includes(search.toLowerCase())
   )
 
+
   useEffect(() => {
-    fetch('https://dummyjson.com/products/category/smartphones')
-      .then(res => res.json())
-      .then(data => {
-        setProducts(data.products)
+    Promise.all([
+      fetch('https://dummyjson.com/products/category/smartphones').then(res => res.json()),
+      fetch('https://dummyjson.com/products/category/laptops').then(res => res.json()),
+    ])
+      .then(([smartphones, laptops]) => {
+        const macbooks = laptops.products.filter(p =>
+          p.title.toLowerCase().includes('macbook')
+        )
+        setProducts([...smartphones.products, ...macbooks])
         setLoading(false)
       })
       .catch(err => {

@@ -101,7 +101,6 @@
   width: 200px;
   height: 170px;
   border-radius: 10px;
-  background-color: #DE9559;
   animation: float 3s ease-in-out infinite;
 }
 .iphone-card {
@@ -113,7 +112,7 @@
 .card-text {
     margin-left: 60px;
     margin-top: 10px;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -125,7 +124,6 @@
   width: 200px;
   height: 170px;
   border-radius: 10px;
-  background-color: #1F1B56;
   animation: float 3s ease-in-out infinite 0.5s;
 }
 .headphones-card {
@@ -137,7 +135,7 @@
 .card-text2 {
     margin-left: 40px;
     margin-top: 10px;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -149,7 +147,6 @@
   width: 200px;
   height: 170px;
   border-radius: 10px;
-  background-color: #49A077;
   animation: float 3s ease-in-out infinite 1s;
 }
 .laptop-card {
@@ -161,7 +158,7 @@
 .card-text3 {
     margin-left: 55px;
     margin-top: 2px;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -180,7 +177,7 @@
   height: 40px;
    padding: 10px 20px;
   border: none;
- background: #0071E3;
+ background: darkviolet;
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
