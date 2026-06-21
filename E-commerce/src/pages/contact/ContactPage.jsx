@@ -24,6 +24,7 @@ export function ContactPage() {
 
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="/phone-favicon.png" />
              <title>Contact</title>
             <NavBar />
             <div className={styles.contactWrapper}>

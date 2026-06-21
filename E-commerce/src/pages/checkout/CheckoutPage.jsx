@@ -16,6 +16,8 @@ export function CheckoutPage() {
 
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="/cart-favicon.png" />
+            <title>Checkout</title>
             <NavBar />
             <div className="Find">
                 <img src="images/find-hero.svg" alt="" />

@@ -5,6 +5,7 @@ import styles from './AboutPage.module.css'
 export function AboutPage() {
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="/tracking-favicon.png" />
             <title>About Us</title>
             <NavBar />
             <div className={styles.aboutWrapper}>

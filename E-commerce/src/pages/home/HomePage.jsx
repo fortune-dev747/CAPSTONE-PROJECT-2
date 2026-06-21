@@ -6,7 +6,10 @@ import { Footer } from "../../components/Footer";
 export function HomePage() {
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="/home-favicon.png" />
+
             <title>Home</title>
+
             <NavBar />
 
             <div className="page-wrapper">
