@@ -43,7 +43,7 @@
 }
 
 .aboutSubtitle {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #a1a1a6;
     line-height: 1.2;
     margin: 0;
@@ -136,14 +136,31 @@
     line-height: 1.7;
     margin: 0;
 }
+/* Responsiveness */
+@media (min-width: 319px) and (max-width: 431px) {
+    .aboutHero {
+        flex-direction: column;
+        padding: 40px 24px;
+        margin-top: 50px;
+    }
 
-@media (max-width: 768px) {
+    .aboutSubtitle {
+        font-size: 20px;
+    }
+
+    .valuesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (width: 768px) {
     .aboutHero {
         flex-direction: column;
         padding: 40px 24px;
     }
 
-    .aboutTitle {
+    .aboutSubtitle {
         font-size: 2rem;
     }
 
