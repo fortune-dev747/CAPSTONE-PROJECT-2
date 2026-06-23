@@ -61,7 +61,7 @@ export function Products() {
           <SearchBar value={search} onChange={setSearch} />
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
             gap: '32px',
           }}>
             {filteredProducts.map((product) => {
@@ -80,7 +80,7 @@ export function Products() {
                     src={product.images[0]}
                     style={{
                       width: '100%',
-                      height: '300px',
+                      height: '400px',
                       objectFit: 'cover',
                       display: 'block',
                     }}
@@ -92,10 +92,20 @@ export function Products() {
                     gap: '8px',
                     flex: 1,
                   }}>
-                    <h3 style={{ fontSize: '18px', color: '#A1A1A6', fontWeight: '900', margin: 0 }}>
+                    <h3 style={{
+                      fontSize: 'clamp(16px, 2vw, 18px)',
+                      color: '#A1A1A6',
+                      fontWeight: '900',
+                      margin: 0
+                    }}>
                       {product.title}
                     </h3>
-                    <p style={{ fontSize: '18px', fontWeight: '700', color: '#000000', margin: 0 }}>
+                    <p style={{
+                      fontSize: 'clamp(16px, 1.8vw, 18px)',
+                      fontWeight: '700',
+                      color: '#000000',
+                      margin: 0
+                    }}>
                       ${product.price}
                     </p>
 

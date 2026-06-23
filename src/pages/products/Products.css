@@ -1,5 +1,5 @@
 .add-to-cart-btn {
-    position : relative;
+    position: relative;
     background-color: rgba(203, 198, 52, 0.504);
     width: 250px;
     height: 30px;
@@ -31,4 +31,22 @@
     left: 35px;
     color: white;
     cursor: pointer;
+}
+
+/* Responsiveness */
+@media (min-width: 319px) and (max-width: 431px) {
+    .add-to-cart-btn {
+        width: 320px;
+        height: 30px;
+    }
+
+    .cart-shopping {
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        top: 4px;
+        left: 75px;
+        color: white;
+        cursor: pointer;
+    }
 }
