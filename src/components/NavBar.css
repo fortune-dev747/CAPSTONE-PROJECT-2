@@ -149,7 +149,7 @@ li {
     color: #F5A623;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .Menu {
         display: none;
     }
@@ -166,7 +166,7 @@ li {
         right: 50px;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px  ) and (max-width: 431px) {
     .Menu {
         display: none;
     }
@@ -180,6 +180,18 @@ li {
     }
 
     .cart-quantity {
-        right: 32px;
+        right: 49px;
+    }
+}
+
+@media (width: 360px  ) {
+    .cart-quantity {
+        right: 34px;
+    }
+}
+
+@media (width: 344px  ) {
+    .cart-quantity {
+        right: 22px;
     }
 }
