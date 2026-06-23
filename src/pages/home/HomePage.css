@@ -268,9 +268,9 @@
   }
 
   .page-wrapper {
-   min-height: 100vh;
-  height: auto;
-  overflow: hidden;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
   }
 
   @keyframes fadeInUp {
@@ -526,16 +526,15 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
-    top: 40px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
   }
 
   .page-wrapper {
     background-color: black;
-    position: relative;
+    min-height: 85vh;
+    height: auto;
     overflow: hidden;
-    width: 100%;
-    height: 70vh;
 
   }
 
@@ -553,8 +552,8 @@
 
   .hero-section {
     position: absolute;
-    bottom: 430px;
-    left: 60px;
+    bottom: 500px;
+    left: 70px;
     color: #A1A1A6;
     font-size: 30px;
     font-weight: thick;
@@ -626,7 +625,7 @@
 
   .card1 {
     position: absolute;
-    top: 290px;
+    top: 260px;
     left: 140px;
     width: 100px;
     height: 70px;
@@ -651,7 +650,7 @@
 
   .card2 {
     position: absolute;
-    top: 400px;
+    top: 370px;
     left: 40px;
     width: 100px;
     height: 70px;
@@ -676,7 +675,7 @@
 
   .card3 {
     position: absolute;
-    top: 385px;
+    top: 355px;
     left: 240px;
     width: 100px;
     height: 70px;
@@ -715,7 +714,7 @@
 
   .view-products-btn {
     position: absolute;
-    top: 500px;
+    top: 470px;
     left: 105px;
     width: 200px;
     height: 40px;
@@ -737,10 +736,10 @@
 
   .card4 {
     position: absolute;
-    top: 550px;
+    top: 520px;
     left: 0px;
     width: 425px;
-    height: 103px;
+    height: 170px;
     border-radius: 10px;
     background-color: darkviolet;
     opacity: 0.8;
@@ -748,10 +747,10 @@
 
   .card-text4 {
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 18px;
     color: white;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 25px;
     font-family: roboto;
     position: relative;
   }
@@ -760,26 +759,27 @@
     color: white;
     font-weight: bold;
     line-height: 5px;
-    font-size: 18px;
+    font-size: 25px;
     margin-left: 30px;
+    margin-top: 10px;
   }
 
   .review-hero {
-    width: 100px;
-    height: 58px;
+    width: 140px;
+    height: 108px;
     margin-left: 280px;
     margin-top: 0px;
   }
 
   .card-text6 {
     position: absolute;
-    top: 50px;
+    top: 90px;
     left: 10px;
     margin-left: 16px;
     margin-top: 2px;
     color: white;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 17px;
     font-family: roboto;
   }
 }
