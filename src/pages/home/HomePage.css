@@ -233,7 +233,7 @@
 
 /* Responsiveness */
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
 
 @keyframes fadeInUp {
   0% {
