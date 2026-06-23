@@ -68,7 +68,7 @@ export function Products() {
               const isAdded = addedIds.includes(product.id)
               return (
                 <div key={product.id} style={{
-                  backgroundColor: '#A1A1A6',
+                  backgroundColor: '#fff',
                   borderRadius: '12px',
                   overflow: 'hidden',
                   display: 'flex',
@@ -92,7 +92,7 @@ export function Products() {
                     gap: '8px',
                     flex: 1,
                   }}>
-                    <h3 style={{ fontSize: '14px', color: '#ffffff', fontWeight: '500', margin: 0 }}>
+                    <h3 style={{ fontSize: '18px', color: '#A1A1A6', fontWeight: '900', margin: 0 }}>
                       {product.title}
                     </h3>
                     <p style={{ fontSize: '18px', fontWeight: '700', color: '#000000', margin: 0 }}>
@@ -115,6 +115,7 @@ export function Products() {
                     </div>
 
                     <div className='add-to-cart-btn' onClick={() => handleAddToCart(product)}>
+                      <img className='cart-shopping' src="/icons/cart-shopping.png" alt="" />
                       <h2 className='add-to-cart'>Add to Cart</h2>
                     </div>
                   </div>
