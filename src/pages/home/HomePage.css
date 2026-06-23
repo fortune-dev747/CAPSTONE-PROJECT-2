@@ -233,7 +233,25 @@
 
 /* Responsiveness */
 
-@media (max-width: 428px) {
+@media (max-width: 431px) {
+
+  .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.page-wrapper {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 70vh;
+
+}
 
 @keyframes fadeInUp {
   0% {
@@ -248,8 +266,8 @@
 
 .hero-section {
   position: absolute;
-  bottom: 400px;
-  left: 10px;
+  bottom: 430px;
+  left: 60px;
   color: #A1A1A6;
   font-size: 30px;
   font-weight: thick;
@@ -313,8 +331,8 @@
 
 .card1 {
   position: absolute;
-  top: 310px;
-  left: 100px;
+  top: 290px;
+  left: 140px;
   width: 100px;
   height: 70px;
   border-radius: 10px;
@@ -337,7 +355,7 @@
 .card2 {
   position: absolute;
   top: 400px;
-  left: 10px;
+  left: 40px;
   width: 100px;
   height: 70px;
   border-radius: 10px;
@@ -360,7 +378,7 @@
 .card3 {
   position: absolute;
   top: 385px;
-  left: 200px;
+  left: 240px;
   width: 100px;
   height: 70px;
   border-radius: 10px;
@@ -389,7 +407,7 @@
 .view-products-btn {
   position: absolute;
   top: 500px;
-  left: 75px;
+  left: 105px;
   width: 200px;
   height: 40px;
    padding: 5px 10px;
