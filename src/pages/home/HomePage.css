@@ -5,16 +5,18 @@
 }
 
 .page-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
     transform: translateY(30px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -28,7 +30,7 @@
   color: #A1A1A6;
   font-size: 64px;
   font-weight: thick;
-    animation: fadeInUp 1s ease-out forwards 0.3s;
+  animation: fadeInUp 1s ease-out forwards 0.3s;
 }
 
 .sub-hero-text {
@@ -52,37 +54,45 @@
 }
 
 .apple-logo {
-    width: 90px;
-    height: 90px;
-    bottom: 62px;
-    left: 480px;
-    position: absolute;
+  width: 90px;
+  height: 90px;
+  bottom: 62px;
+  left: 480px;
+  position: absolute;
 }
 
 .link-primary {
-    color: #ff8a00;
-    cursor: pointer;
+  color: #ff8a00;
+  cursor: pointer;
 }
 
 .hero-text {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
 }
 
 
 .hero-svg {
-    position: absolute;
-    top: 180px;
-    left: 1020px;
-    width: 396px;
-    height: 259px;
+  position: absolute;
+  top: 180px;
+  left: 1020px;
+  width: 396px;
+  height: 259px;
 }
 
 @keyframes float {
-  0%   { transform: translateY(0px); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 
@@ -95,18 +105,20 @@
   border-radius: 10px;
   animation: float 3s ease-in-out infinite;
 }
+
 .iphone-card {
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 25px;
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 25px;
 }
+
 .card-text {
-    margin-left: 60px;
-    margin-top: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  margin-left: 60px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .card2 {
@@ -118,18 +130,20 @@
   border-radius: 10px;
   animation: float 3s ease-in-out infinite 0.5s;
 }
+
 .headphones-card {
-    width: 130px;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 30px;
+  width: 130px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 30px;
 }
+
 .card-text2 {
-    margin-left: 40px;
-    margin-top: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .card3 {
@@ -141,24 +155,34 @@
   border-radius: 10px;
   animation: float 3s ease-in-out infinite 1s;
 }
+
 .laptop-card {
-   width: 180px;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
+  width: 180px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
 }
+
 .card-text3 {
-    margin-left: 55px;
-    margin-top: 2px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  margin-left: 55px;
+  margin-top: 2px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @keyframes pulse {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .view-products-btn {
@@ -167,13 +191,13 @@
   left: 525px;
   width: 200px;
   height: 40px;
-   padding: 10px 20px;
+  padding: 10px 20px;
   border: none;
- background: darkviolet;
+  background: darkviolet;
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
-   border-radius: 8px;
+  border-radius: 8px;
   cursor: pointer;
   animation: pulse 1s ease-in-out infinite;
   text-align: center;
@@ -185,248 +209,267 @@
 }
 
 .card4 {
-    position: absolute;
-    top: 509px;
-    left: 1020px;
-    width: 500px;
-    height: 230px;
-    border-radius: 10px;
-    background-color: darkviolet;
-    opacity: 0.8;
+  position: absolute;
+  top: 509px;
+  left: 1020px;
+  width: 500px;
+  height: 230px;
+  border-radius: 10px;
+  background-color: darkviolet;
+  opacity: 0.8;
 }
+
 .card-text4 {
-    margin-left: 40px;
-    margin-top: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 40px;
-    font-family: roboto;
-    position: relative;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: roboto;
+  position: relative;
 }
 
 .card-text5 {
-   color: white;
-    font-weight: bold;
-    line-height: 5px;
-    font-size: 40px;
-    margin-left: 40px;
+  color: white;
+  font-weight: bold;
+  line-height: 5px;
+  font-size: 40px;
+  margin-left: 40px;
 }
 
 .review-hero {
- width: 197px;
- height: 148px;
- margin-left: 290px;
- margin-top: 5px;
+  width: 197px;
+  height: 148px;
+  margin-left: 290px;
+  margin-top: 5px;
 }
 
 .card-text6 {
-    position: absolute;
-    top: 100px;
-    left: 0px;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: roboto;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: roboto;
 }
 
 /* Responsiveness */
-
-@media (max-width: 431px) {
+@media (max-width: 391px) {
 
   .hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
     top: 40px;
     left: 0px;
-}
+  }
 
-.page-wrapper {
-  background-color: black;
-  position: relative;
+  .page-wrapper {
+   min-height: 100vh;
+  height: auto;
   overflow: hidden;
-  width: 100%;
-  height: 70vh;
-
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
 
-.hero-section {
-  position: absolute;
-  bottom: 430px;
-  left: 60px;
-  color: #A1A1A6;
-  font-size: 30px;
-  font-weight: thick;
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .hero-section {
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    color: #A1A1A6;
+    font-size: 50px;
+    font-weight: thick;
     animation: fadeInUp 1s ease-out forwards 0.3s;
-}
+  }
 
-.sub-hero-text {
-  position: absolute;
-  top: 40px;
-  left: 70px;
-  font-size: 15px;
-  color: #86868B;
-  animation: fadeInUp 1s ease-out forwards 0.3s;
-  opacity: 0;
-}
+  .sub-hero-text {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-size: 15px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.3s;
+    opacity: 0;
+  }
 
-.sub-hero-text2 {
-  position: absolute;
-  top: 60px;
-  left: 20px;
-  font-size: 15px;
-  color: #86868B;
-  animation: fadeInUp 1s ease-out forwards 0.6s;
-  opacity: 0;
-}
+  .sub-hero-text2 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.6s;
+    opacity: 0;
+  }
 
-.apple-logo {
+  .apple-logo {
     width: 40px;
     height: 40px;
     bottom: 37px;
     left: 240px;
     position: absolute;
-}
+  }
 
-.link-primary {
+  .link-primary {
     color: #ff8a00;
     cursor: pointer;
-}
+  }
 
-.hero-text {
+  .hero-text {
     position: absolute;
     bottom: 30px;
     left: 30px;
-}
+  }
 
 
-.hero-svg {
+  .hero-svg {
     position: absolute;
     top: 180px;
     left: 1020px;
     width: 396px;
     height: 259px;
-}
+  }
 
-@keyframes float {
-  0%   { transform: translateY(0px); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-}
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
 
-.card1 {
-  position: absolute;
-  top: 290px;
-  left: 140px;
-  width: 100px;
-  height: 70px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite;
-}
-.iphone-card {
+  .card1 {
+    position: absolute;
+    top: 290px;
+    left: 140px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .iphone-card {
     width: 80px;
     height: auto;
     margin-top: 20px;
     margin-left: 25px;
-}
-.card-text {
+  }
+
+  .card-text {
     margin-left: 40px;
     margin-top: 10px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-}
+  }
 
-.card2 {
-  position: absolute;
-  top: 400px;
-  left: 40px;
-  width: 100px;
-  height: 70px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite 0.5s;
-}
-.headphones-card {
+  .card2 {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 0.5s;
+  }
+
+  .headphones-card {
     width: 70px;
     height: auto;
     margin-top: 10px;
     margin-left: 30px;
-}
-.card-text2 {
+  }
+
+  .card-text2 {
     margin-left: 30px;
     margin-top: 10px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-}
+  }
 
-.card3 {
-  position: absolute;
-  top: 385px;
-  left: 240px;
-  width: 100px;
-  height: 70px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite 1s;
-}
-.laptop-card {
-   width: 100px;
+  .card3 {
+    position: absolute;
+    top: 385px;
+    left: 240px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 1s;
+  }
+
+  .laptop-card {
+    width: 100px;
     height: auto;
     margin-top: 10px;
     margin-left: 10px;
-}
-.card-text3 {
+  }
+
+  .card-text3 {
     margin-left: 30px;
     margin-top: 2px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-}
+  }
 
-@keyframes pulse {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
 
-.view-products-btn {
-  position: absolute;
-  top: 500px;
-  left: 105px;
-  width: 200px;
-  height: 40px;
-   padding: 5px 10px;
-  border: none;
- background: darkviolet;
-  color: #ffffff;
-  font-weight: 600;
-   border-radius: 8px;
-  cursor: pointer;
-  animation: pulse 1s ease-in-out infinite;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 13px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+    50% {
+      transform: scale(1.05);
+    }
 
-.card4 {
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .view-products-btn {
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    background: darkviolet;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: pulse 1s ease-in-out infinite;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .card4 {
     position: absolute;
     top: 550px;
     left: 0px;
@@ -435,8 +478,9 @@
     border-radius: 10px;
     background-color: darkviolet;
     opacity: 0.8;
-}
-.card-text4 {
+  }
+
+  .card-text4 {
     margin-left: 30px;
     margin-top: 10px;
     color: white;
@@ -444,24 +488,24 @@
     font-size: 19px;
     font-family: roboto;
     position: relative;
-}
+  }
 
-.card-text5 {
-   color: white;
+  .card-text5 {
+    color: white;
     font-weight: bold;
     line-height: 5px;
     font-size: 18px;
     margin-left: 30px;
-}
+  }
 
-.review-hero {
- width: 100px;
- height: 58px;
- margin-left: 280px;
- margin-top: 0px;
-}
+  .review-hero {
+    width: 100px;
+    height: 58px;
+    margin-left: 280px;
+    margin-top: 0px;
+  }
 
-.card-text6 {
+  .card-text6 {
     position: absolute;
     top: 50px;
     left: 10px;
@@ -471,185 +515,474 @@
     font-weight: bold;
     font-size: 11px;
     font-family: roboto;
-}
-}
-
-@media (width: 768px) {
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
   }
 }
 
-.hero-section {
-  position: absolute;
-  bottom: 600px;
-  left: 60px;
-  color: #A1A1A6;
-  font-size: 45px;
-  font-weight: thick;
-    animation: fadeInUp 1s ease-out forwards 0.3s;
-}
 
-.sub-hero-text {
-  position: absolute;
-  top: 50px;
-  left: 70px;
-  font-size: 30px;
-  color: #86868B;
-  animation: fadeInUp 1s ease-out forwards 0.3s;
-  opacity: 0;
-}
+@media (max-width: 431px) {
 
-.sub-hero-text2 {
-  position: absolute;
-  top: 80px;
-  left: 10px;
-  font-size: 30px;
-  color: #86868B;
-  animation: fadeInUp 1s ease-out forwards 0.6s;
-  opacity: 0;
-}
-
-.apple-logo {
-    width: 60px;
-    height: 60px;
-    bottom: 57px;
-    left: 350px;
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     position: absolute;
-}
+    top: 40px;
+    left: 0px;
+  }
 
-.link-primary {
+  .page-wrapper {
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .hero-section {
+    position: absolute;
+    bottom: 430px;
+    left: 60px;
+    color: #A1A1A6;
+    font-size: 30px;
+    font-weight: thick;
+    animation: fadeInUp 1s ease-out forwards 0.3s;
+  }
+
+  .sub-hero-text {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-size: 15px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.3s;
+    opacity: 0;
+  }
+
+  .sub-hero-text2 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.6s;
+    opacity: 0;
+  }
+
+  .apple-logo {
+    width: 40px;
+    height: 40px;
+    bottom: 37px;
+    left: 240px;
+    position: absolute;
+  }
+
+  .link-primary {
     color: #ff8a00;
     cursor: pointer;
-}
+  }
 
-.hero-text {
+  .hero-text {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 30px;
-}
+  }
 
 
-.hero-svg {
+  .hero-svg {
     position: absolute;
     top: 180px;
     left: 1020px;
     width: 396px;
     height: 259px;
-}
+  }
 
-@keyframes float {
-  0%   { transform: translateY(0px); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-}
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
 
-.card1 {
-  position: absolute;
-  top: 370px;
-  left: 180px;
-  width: 150px;
-  height: 100px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite;
-}
-.iphone-card {
-    width: 120px;
+  .card1 {
+    position: absolute;
+    top: 290px;
+    left: 140px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .iphone-card {
+    width: 80px;
     height: auto;
     margin-top: 20px;
     margin-left: 25px;
-}
-.card-text {
-    margin-left: 60px;
+  }
+
+  .card-text {
+    margin-left: 40px;
     margin-top: 10px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-}
+  }
 
-.card2 {
-  position: absolute;
-  top: 485px;
-  left: 30px;
-  width: 250px;
-  height: 100px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite 0.5s;
-}
-.headphones-card {
-    width: 110px;
+  .card2 {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 0.5s;
+  }
+
+  .headphones-card {
+    width: 70px;
     height: auto;
     margin-top: 10px;
     margin-left: 30px;
-}
-.card-text2 {
+  }
+
+  .card-text2 {
     margin-left: 30px;
     margin-top: 10px;
     color: white;
     font-weight: bold;
     font-size: 15px;
-}
+  }
 
-.card3 {
-  position: absolute;
-  top: 485px;
-  left: 340px;
-  width: 250px;
-  height: 100px;
-  border-radius: 10px;
-  animation: float 3s ease-in-out infinite 1s;
-}
-.laptop-card {
-   width: 130px;
+  .card3 {
+    position: absolute;
+    top: 385px;
+    left: 240px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 1s;
+  }
+
+  .laptop-card {
+    width: 100px;
     height: auto;
     margin-top: 10px;
     margin-left: 10px;
-}
-.card-text3 {
+  }
+
+  .card-text3 {
     margin-left: 30px;
     margin-top: 2px;
     color: white;
     font-weight: bold;
     font-size: 15px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .view-products-btn {
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    background: darkviolet;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: pulse 1s ease-in-out infinite;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .card4 {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 425px;
+    height: 103px;
+    border-radius: 10px;
+    background-color: darkviolet;
+    opacity: 0.8;
+  }
+
+  .card-text4 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: roboto;
+    position: relative;
+  }
+
+  .card-text5 {
+    color: white;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+
+  .review-hero {
+    width: 100px;
+    height: 58px;
+    margin-left: 280px;
+    margin-top: 0px;
+  }
+
+  .card-text6 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    margin-left: 16px;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: roboto;
+  }
 }
 
-@keyframes pulse {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
+@media (width: 768px) {
 
-.view-products-btn {
-  position: absolute;
-  top: 630px;
-  left: 160px;
-  width: 200px;
-  height: 40px;
-   padding: 5px 10px;
-  border: none;
- background: darkviolet;
-  color: #ffffff;
-  font-weight: 600;
-   border-radius: 8px;
-  cursor: pointer;
-  animation: pulse 1s ease-in-out infinite;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
 
-.card4 {
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .hero-section {
+    position: absolute;
+    bottom: 600px;
+    left: 60px;
+    color: #A1A1A6;
+    font-size: 45px;
+    font-weight: thick;
+    animation: fadeInUp 1s ease-out forwards 0.3s;
+  }
+
+  .sub-hero-text {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    font-size: 30px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.3s;
+    opacity: 0;
+  }
+
+  .sub-hero-text2 {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 30px;
+    color: #86868B;
+    animation: fadeInUp 1s ease-out forwards 0.6s;
+    opacity: 0;
+  }
+
+  .apple-logo {
+    width: 60px;
+    height: 60px;
+    bottom: 57px;
+    left: 350px;
+    position: absolute;
+  }
+
+  .link-primary {
+    color: #ff8a00;
+    cursor: pointer;
+  }
+
+  .hero-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+  }
+
+
+  .hero-svg {
+    position: absolute;
+    top: 180px;
+    left: 1020px;
+    width: 396px;
+    height: 259px;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
+  .card1 {
+    position: absolute;
+    top: 370px;
+    left: 180px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .iphone-card {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .card-text {
+    margin-left: 60px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .card2 {
+    position: absolute;
+    top: 485px;
+    left: 30px;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 0.5s;
+  }
+
+  .headphones-card {
+    width: 110px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .card-text2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .card3 {
+    position: absolute;
+    top: 485px;
+    left: 340px;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite 1s;
+  }
+
+  .laptop-card {
+    width: 130px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .card-text3 {
+    margin-left: 30px;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .view-products-btn {
+    position: absolute;
+    top: 630px;
+    left: 160px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    background: darkviolet;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: pulse 1s ease-in-out infinite;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .card4 {
     position: absolute;
     top: 690px;
     left: 0px;
@@ -658,8 +991,9 @@
     border-radius: 10px;
     background-color: darkviolet;
     opacity: 0.8;
-}
-.card-text4 {
+  }
+
+  .card-text4 {
     margin-left: 30px;
     margin-top: 10px;
     color: white;
@@ -667,24 +1001,24 @@
     font-size: 19px;
     font-family: roboto;
     position: relative;
-}
+  }
 
-.card-text5 {
-   color: white;
+  .card-text5 {
+    color: white;
     font-weight: bold;
     line-height: 5px;
     font-size: 18px;
     margin-left: 30px;
-}
+  }
 
-.review-hero {
- width: 100px;
- height: 58px;
- margin-left: 280px;
- margin-top: 0px;
-}
+  .review-hero {
+    width: 100px;
+    height: 58px;
+    margin-left: 280px;
+    margin-top: 0px;
+  }
 
-.card-text6 {
+  .card-text6 {
     position: absolute;
     top: 50px;
     left: 10px;
@@ -694,5 +1028,5 @@
     font-weight: bold;
     font-size: 11px;
     font-family: roboto;
-}
+  }
 }
