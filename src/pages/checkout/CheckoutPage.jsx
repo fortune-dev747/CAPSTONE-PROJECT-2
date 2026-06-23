@@ -19,12 +19,10 @@ export function CheckoutPage() {
             <link rel="icon" type="image/svg+xml" href="/cart-favicon.png" />
             <title>Checkout</title>
             <NavBar />
-            <div className="Find">
-                <img src="images/find-hero.svg" alt="" />
-            </div>
             <div>
-                <button className={styles.openBtn} 
-                 onClick={() => setOpen(true)}>
+                <img className={styles.heroImage}  src="images/find-hero.svg" alt="" />
+                <button className={styles.openBtn}
+                    onClick={() => setOpen(true)}>
                     Open Cart
                 </button>
 
@@ -88,8 +86,8 @@ export function CheckoutPage() {
                             Order via WhatsApp
                         </a>
                         <NavLink to="/products">
-                            <button className={styles.continueBtn} 
-                             onClick={() => setOpen(false)}>
+                            <button className={styles.continueBtn}
+                                onClick={() => setOpen(false)}>
                                 Continue Shopping →
                             </button>
                         </NavLink>

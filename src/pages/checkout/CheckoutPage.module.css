@@ -1,21 +1,14 @@
-.Find {
-    position: absolute;
-    top: 250px;
-    left: 560px;
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: #0f172a;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+.heroImage {
+  margin-top: 40px;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
 }
 
 .openBtn {
     position: relative;
-    top: 500px;
-    left: 650px;
+    top: 60px;
+    left: 250px;
     padding: 10px 20px;
     background: #0071E3;
     color: #ffffff;
@@ -216,3 +209,28 @@
 .continueBtn:hover {
   color: #F5A623;
 }
+
+/* Responsiveness */
+@media (min-width: 319px) and (max-width: 431px) {
+.heroImage {
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
+.openBtn {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 10px 20px;
+    background: #0071E3;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+}
+
