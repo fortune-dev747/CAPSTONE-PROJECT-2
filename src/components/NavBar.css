@@ -546,11 +546,7 @@ li {
     }
 }
 
-@media (width: 360px) {
-    .cart-quantity {
-        right: 34px;
-    }
-}
+
 
 @media (width: 344px) {
     .cart-quantity {
@@ -558,7 +554,7 @@ li {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 361px) {
   /* Prevent overflow */
   html, body {
     max-width: 100vw;
