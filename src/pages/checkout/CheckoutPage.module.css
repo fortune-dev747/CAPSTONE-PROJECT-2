@@ -210,6 +210,68 @@
   color: #F5A623;
 }
 
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+.qtyBtn1 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border, #333);
+  background: transparent;
+  color: var(--text, #fff);
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.qtyBtn2 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border, #333);
+  background: transparent;
+  color: var(--text, #fff);
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.qtyBtn1:hover {
+  background: var(--accent, #dc370a);
+  border-color: var(--accent, #dc370a);
+  color: #fff;
+}
+
+.qtyBtn2:hover {
+  background: var(--accent, #03a42c);
+  border-color: var(--accent, #03a42c);
+  color: #fff;
+}
+
+
+.qtyDisplay {
+  font-size: 1rem;
+  font-weight: 500;
+  min-width: 24px;
+  text-align: center;
+  color: var(--text, #fff);
+}
+
 /* Responsiveness */
 @media (min-width: 321px) and (max-width: 431px) {
 .heroImage {

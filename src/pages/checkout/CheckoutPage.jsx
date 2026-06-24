@@ -6,13 +6,21 @@ import { useCart } from './CartContext'
 
 export function CheckoutPage() {
     const [open, setOpen] = useState(false)
-    const { cartItems, removeFromCart, totalPrice, clearCart } = useCart()
+    const { cartItems, removeFromCart, totalPrice, clearCart, updateQuantity } = useCart()
 
     const whatsappMessage = encodeURIComponent(
         `Hello! I'd like to order the following:\n` +
         cartItems.map(item => `- ${item.title} x${item.quantity} ($${item.price})`).join('\n') +
         `\n\nTotal: $${totalPrice.toFixed(2)}`
     )
+
+    const handleQuantityChange = (id, newQuantity) => {
+        if (newQuantity < 1) {
+            removeFromCart(id)
+        } else {
+            updateQuantity(id, newQuantity)
+        }
+    }
 
     return (
         <>
@@ -53,7 +61,21 @@ export function CheckoutPage() {
                                             <h3>{item.title}</h3>
                                             <p>${item.price}</p>
                                         </div>
-                                        <p className={styles.productColor}>Qty {item.quantity}</p>
+                                        <div className={styles.quantityControls}>
+                                            <button 
+                                                className={styles.qtyBtn1}
+                                                onClick={() => handleQuantityChange(item.id, item.quantity - 1)}
+                                            >
+                                                −
+                                            </button>
+                                            <span className={styles.qtyDisplay}>{item.quantity}</span>
+                                            <button 
+                                                className={styles.qtyBtn2}
+                                                onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
+                                            >
+                                                +
+                                            </button>
+                                        </div>
                                         <div className={styles.productBottom}>
                                             <span>${(item.price * item.quantity).toFixed(2)}</span>
                                             <button
@@ -75,9 +97,8 @@ export function CheckoutPage() {
                             <p>Subtotal</p>
                             <p>${totalPrice.toFixed(2)}</p>
                         </div>
-                        {/* <p className={styles.shippingNote}>Negotiation is allowed via dm.</p> */}
 
-                        <a href={`https://wa.me/+2349000000000?text=${whatsappMessage}`}
+                        <a href={`https://wa.me/+2349017186911?text=${whatsappMessage}`}
                             target="_blank"
                             rel="noreferrer"
                             className={styles.checkoutBtn}
