@@ -64,16 +64,18 @@
 }
 
 .cart-quantity {
-    color: rgb(10, 10, 10);
-    font-size: 14px;
+   color: rgb(10, 10, 10);
+    font-size: 11px; /* Reduced from 14px */
     font-weight: 700;
-
     position: absolute;
-    top: 5.5px;
-    right: 50px;
-
-    width: 26px;
+    top: 2px; /* Adjusted */
+    right: 49px; 
+    width: 20px; 
+    height: 20px;
     text-align: center;
+    line-height: 20px;
+    background: #F5A623;
+    border-radius: 50%;
 }
 
 .cart-header-link {
@@ -554,4 +556,174 @@ li {
     .cart-quantity {
         right: 22px;
     }
+}
+
+@media (max-width: 320px) {
+  /* Prevent overflow */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .Navbar {
+    width: 100%;
+    height: 60px; /* Reduced from 74px */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(to right,
+      #0f172a 0%,
+      #0f172a 50%,
+      #0f172a 100%);
+    fill-opacity: 50%;
+    position: fixed;
+  }
+
+  .Nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Better for small screens */
+    height: 100%;
+    padding: 0 12px; /* Reduced from 20px */
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .logo {
+    width: 90px; /* Reduced from 123.33px */
+    height: 27px; /* Reduced from 37px */
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  /* Hide desktop menu */
+  .Menu {
+    display: none;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 22px; /* Slightly smaller */
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-left: 8px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .right-section {
+    color: #A1A1A6;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 8px; /* Smaller gap */
+    font-size: 16px; /* Reduced from 24px */
+    font-family: Roboto;
+    letter-spacing: 5%;
+  }
+
+  .orders-text {
+    margin-top: 0px;
+    font-size: 13px; /* Smaller text */
+    display: none; /* Hide orders text on very small screens */
+  }
+
+  .cart-text {
+    margin-left: 3px; /* Reduced from 5px */
+    font-size: 12px; /* Reduced from 15px */
+    font-weight: 700;
+    display: none; /* Hide "Cart" text, show only icon */
+  }
+
+  .cart-header-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 0; /* Reduced from 90px */
+    transition: color 0.2s ease;
+    border-radius: 8px;
+    padding: 4px 6px; /* Reduced from 6px 10px */
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .cart-header-link:hover {
+    background-color: rgba(100, 25, 116, 0.1);
+    color: #F5A623;
+  }
+
+  .cart-header-link:hover .cart-icon {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+
+  .cart-icon {
+    width: 30px; /* Reduced from 38px */
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+
+  .cart-quantity {
+    color: rgb(10, 10, 10);
+    font-size: 11px; /* Reduced from 14px */
+    font-weight: 700;
+    position: absolute;
+    top: 2px; /* Adjusted */
+    right: 2px; /* Adjusted from 49px */
+    width: 20px; /* Reduced from 26px */
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #F5A623;
+    border-radius: 50%;
+  }
+
+  /* Mobile menu styles */
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* Reduced from 24px */
+    padding: 16px 0; /* Reduced from 24px */
+    background-color: #0f172a;
+    border-top: 1px solid #1a1a1a;
+    width: 100%;
+    position: fixed;
+    top: 60px; /* Match navbar height */
+    left: 0;
+    z-index: 999;
+  }
+
+  .mobile-menu-active {
+    color: #F5A623;
+  }
+
+  .mobile-menu a {
+    font-size: 16px; /* Reduced from 18px */
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-menu a:hover {
+    color: #F5A623;
+    background: rgba(245, 166, 35, 0.1);
+  }
+
+  /* Fix for any list items */
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
